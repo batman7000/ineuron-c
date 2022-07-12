@@ -1,0 +1,105 @@
+1.
+#include<stdio.h>
+int main()
+{
+    printf("Hello Students");
+    return 0;
+}
+
+2.
+#include<stdio.h>
+int main()
+{
+    printf("Hello\nStudents");
+    return 0;
+}
+
+3.
+#include<stdio.h>
+int main()
+{
+    printf("\"MySirG\"");
+    return 0;
+}
+
+4.
+#include<stdio.h>
+int main()
+{
+    int r;
+    double area;
+    printf("Enter the radius of circle:");
+    scanf("%d",&r);
+    area=(3.14152)*r*r;
+    printf("\"Area of circle is %lf having the radius %d\"",area,r);
+    return 0;
+}
+
+5.
+#include <stdio.h>
+
+int main(){
+   int num;
+   char str[30];
+   fgets(str,sizeof(str),stdin);
+   num=printf("%s",str); 
+   printf("\nThe value returned by printf() for the above string is : %d", num);
+
+   return 0;
+}
+
+6.#include<stdio.h>
+int main()
+{
+    int i;
+    char name[30],name1[30];
+    printf("Enter the Name:");
+    fgets(name,sizeof(name),stdin);
+    printf("\"Hello , %s\"",name);//" " 2nd printing in new line
+    return 0;
+}
+7.
+#include<stdio.h>
+int main()
+{
+    char str[]="%d";
+    printf("%s",str);
+    return 0;
+}
+
+8.#include<stdio.h>
+int main()
+{
+    char str[]="\n";
+    printf("%s",str);
+    return 0;
+}
+9.#include<stdio.h>
+int main()
+{
+    char str[]="\\";
+    printf("%s",str);
+    return 0;
+}
+10.#include<stdio.h>
+int main()
+{
+    char date[]="dd/mm/yyyy";
+    printf("Enter date(DD/MM/YYYY):");
+    scanf("%s",date);
+    printf("Day-%.2s,Month-%.2s,Year-%.4s",date,date+3,date+6);
+    return 0;
+}
+11.#include<stdio.h>
+int main()
+{
+    char time[]="hh:mm";
+    printf("Enter time(hh:mm):");
+    scanf("%s",time);
+    printf("%.2sHour and %.2sMinute",time,time+3);
+    return 0;
+}
+12.7
+
+
+
